@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  h1{
+    color: white;
+  }
+  button {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+
+.navbar {
+    background-color: rgb(76, 175, 80);
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .home {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tach-container {
+    background-color: white;
+    padding: 15px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .base-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+
+ .contain_form{
+  display: flex;
+  width: 45%;
+  margin-top: 10px;
+ }
+  .redColor{
+    color: red;
+    font-weight: bold;
+    
+}
+
+.grenColor{
+    color: rgb(76, 175, 80);
+    font-weight: bold;
+}
+
+.echeanceColor{
+  color: orange;
+    font-weight: bold;
+}
+
+.grenBG{
+    background-color: rgb(76, 175, 80);
+    border: none;
+    border-radius: 5px;
+    width: 47%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.redBG{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 47%;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(76, 175, 80);
+    font-size: 16px;
+}

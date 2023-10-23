@@ -1,0 +1,39 @@
+.add-task {
+    text-align: left;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+label{
+    color: red;
+}
+
+.add-task h1 {
+    font-size: 24px;
+}
+
+.add-task label {
+    display: block;
+    margin-top: 10px;
+}
+
+.add-task select,
+.add-task input[type="text"],
+.add-task textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-task button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
